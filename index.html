@@ -148,21 +148,7 @@
   </div>
 <script src="runtime-es2015.943672e3e53d2ae5d528.js" type="module"></script><script src="runtime-es5.943672e3e53d2ae5d528.js" nomodule defer></script><script src="polyfills-es5.93046dad44f270ec3182.js" nomodule defer></script><script src="polyfills-es2015.b12efa021c7de06ae00f.js" type="module"></script><script src="cordova.39d21e3e7245a452e1f5.js" defer></script><script src="main-es2015.ab8fefc64c819640e948.js" type="module"></script><script src="main-es5.ab8fefc64c819640e948.js" nomodule defer></script></body>
 <script>
-function toggleFullScreen() {
-  var doc = window.document;
-  var docEl = doc.documentElement;
 
-  var requestFullScreen = docEl.requestFullscreen || docEl.mozRequestFullScreen || docEl.webkitRequestFullScreen || docEl.msRequestFullscreen;
-  var cancelFullScreen = doc.exitFullscreen || doc.mozCancelFullScreen || doc.webkitExitFullscreen || doc.msExitFullscreen;
-
-  if(!doc.fullscreenElement && !doc.mozFullScreenElement && !doc.webkitFullscreenElement && !doc.msFullscreenElement) {
-    requestFullScreen.call(docEl);
-  }
-  else {
-    cancelFullScreen.call(doc);
-  }
-}
-setTimeout(function(){ toggleFullScreen(); }, 3000);
  </script>
 
 </html>

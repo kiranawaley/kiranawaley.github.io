@@ -1,5 +1,4 @@
 {
   "name": "Push Demo",
-  "gcm_sender_id": "996231231186",
-   "display": "standalone"
+  "gcm_sender_id": "996231231186"
 }

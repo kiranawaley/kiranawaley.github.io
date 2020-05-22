@@ -1010,6 +1010,9 @@ SOFTWARE.
 ngx-papaparse
 MIT
 
+ngx-ui-loader
+MIT
+
 papaparse
 MIT
 The MIT License (MIT)

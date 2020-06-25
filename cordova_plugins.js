@@ -380,6 +380,14 @@ module.exports = [
         "id": "cordova-plugin-inappbrowser.InAppBrowserProxy",
         "pluginId": "cordova-plugin-inappbrowser",
         "runs": true
+    },
+    {
+        "file": "plugins/cordova-plugin-nativegeocoder/www/NativeGeocoder.js",
+        "id": "cordova-plugin-nativegeocoder.NativeGeocoder",
+        "pluginId": "cordova-plugin-nativegeocoder",
+        "clobbers": [
+            "nativegeocoder"
+        ]
     }
 ];
 module.exports.metadata = 
@@ -402,7 +410,10 @@ module.exports.metadata =
     "cordova-sqlite-storage": "2.6.0",
     "ionic-plugin-deeplinks": "1.0.20",
     "phonegap-plugin-push": "2.1.3",
-    "cordova-plugin-inappbrowser": "3.2.0"
+    "cordova-plugin-inappbrowser": "3.2.0",
+    "cordova-plugin-add-swift-support": "2.0.2",
+    "cordova-plugin-nativegeocoder": "3.4.1",
+    "cordova-plugin-geolocation": "4.0.2"
 }
 // BOTTOM OF METADATA
 });

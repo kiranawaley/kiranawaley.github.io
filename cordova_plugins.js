@@ -388,6 +388,36 @@ module.exports = [
         "clobbers": [
             "nativegeocoder"
         ]
+    },
+    {
+        "file": "plugins/cordova-plugin-bluetooth-serial/www/bluetoothSerial.js",
+        "id": "cordova-plugin-bluetooth-serial.bluetoothSerial",
+        "pluginId": "cordova-plugin-bluetooth-serial",
+        "clobbers": [
+            "window.bluetoothSerial"
+        ]
+    },
+    {
+        "file": "plugins/cordova-plugin-bluetooth-serial/src/browser/bluetoothSerial.js",
+        "id": "cordova-plugin-bluetooth-serial.BluetoothSerial_browser",
+        "pluginId": "cordova-plugin-bluetooth-serial",
+        "clobbers": [
+            "window.bluetoothSerial"
+        ]
+    },
+    {
+        "file": "plugins/cordova-plugin-stripe/www/CordovaStripe.js",
+        "id": "cordova-plugin-stripe.stripe",
+        "pluginId": "cordova-plugin-stripe",
+        "clobbers": [
+            "cordova.plugins.stripe"
+        ]
+    },
+    {
+        "file": "plugins/cordova-plugin-stripe/src/browser/CordovaStripe.js",
+        "id": "cordova-plugin-stripe.CordovaStripe",
+        "pluginId": "cordova-plugin-stripe",
+        "runs": true
     }
 ];
 module.exports.metadata = 
@@ -413,7 +443,9 @@ module.exports.metadata =
     "cordova-plugin-inappbrowser": "3.2.0",
     "cordova-plugin-add-swift-support": "2.0.2",
     "cordova-plugin-nativegeocoder": "3.4.1",
-    "cordova-plugin-geolocation": "4.0.2"
+    "cordova-plugin-geolocation": "4.0.2",
+    "cordova-plugin-bluetooth-serial": "0.4.7",
+    "cordova-plugin-stripe": "1.5.3"
 }
 // BOTTOM OF METADATA
 });
